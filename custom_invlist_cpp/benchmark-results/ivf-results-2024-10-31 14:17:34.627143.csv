@@ -1,0 +1,2 @@
+dt,nprobe,run_id,index_str,k,nq,method,nb,ds,ids_size
+0.005803108215332031,1,0,"IVF8,Flat",5,1,ref,1000000,DatasetDeep1B,8000000
