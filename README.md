@@ -35,12 +35,13 @@ That should output [this log](link_to_a_gist).
 ## Baseline methods 
 
 
-
-
-
 ### Zuckerli 
 
 
+
+## Large-scale experiment
+
+The [QINCo](https://github.com/facebookresearch/Qinco/tree/main/qinco_v1) package should be available in the `PYTHONPATH`.
 
 
 ## Citation 
