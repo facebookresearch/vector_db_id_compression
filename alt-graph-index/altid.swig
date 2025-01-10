@@ -1,16 +1,5 @@
 %module altid 
 
-/*
-   swig -c++ -python -I$CONDA_PREFIX/include altid.swig && \
-       g++ -shared -O3 -g -fPIC  -o _altid.so \
-        altid_wrap.cxx altid_impl.cpp \
-          -I $CONDA_PREFIX/include \
-          -I $( python -c "import distutils.sysconfig ; print(distutils.sysconfig.get_python_inc())" ) \
-          $CONDA_PREFIX/lib/libfaiss_avx2.so \
-          && \
-          python test_altid.py
- */
-
 
 // to get uint32_t and friends
 %include <stdint.i>
