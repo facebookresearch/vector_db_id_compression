@@ -14,7 +14,7 @@ Therefore Faiss should be installed and available from Python.
 We assume that Faiss is installed via Conda and that the Faiss headers are available in the `$CONDA_PREFIX/include` directory. 
 We also assume that [swig](https://swig.org/) is installed (it is available in conda). 
 
-The compilation is piloted via makefiles. 
+The compilation is piloted via makefiles (that are written for Linux). 
 Make should be run in 3 subdirectories: 
 ```
 
