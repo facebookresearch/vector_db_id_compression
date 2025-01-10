@@ -39,9 +39,9 @@ That should output [this log](link_to_a_gist).
 
 
 
-## Large-scale experiment
+## Large-scale experiment with QINCo 
 
-The [QINCo](https://github.com/facebookresearch/Qinco/tree/main/qinco_v1) package should be available in the `PYTHONPATH`.
+The [QINCo](https://github.com/facebookresearch/Qinco/tree/main/qinco_v1) package should be available in a subdirectory of .
 
 
 ## Citation 
