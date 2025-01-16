@@ -202,9 +202,13 @@ The 10 runs are averaged to produce table 4 using
 If you use this package in a research work, please cite: 
 
 ```
-@misc {
+@misc{severo2025idcompression,
    title="Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search",
-   author={Daniel Severo and  Matthew Muckley and Karen Ullrich and Giuseppe Ottaviano and Matthijs Douze}
+   author={Daniel Severo and Giuseppe Ottaviano and  Matthew Muckley and Karen Ullrich and Matthijs Douze},
+   year={2025},
+   eprint={XXX},
+   archivePrefix={arXiv},
+   primaryClass={cs.LG}
 }
 ```
 
