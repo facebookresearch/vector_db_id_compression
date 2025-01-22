@@ -1,6 +1,6 @@
 # ID compression for Vector databases 
 
-This is the implementation of the paper [Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search](http://arxiv.org/pdf/fill_link_when_ready) by Daniel Severo, Giuseppe Ottaviano, Matthew Muckley, Karen Ullrich, and Matthijs Douze. 
+This is the implementation of the paper [Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search](http://arxiv.org/abs/2501.10479) by Daniel Severo, Giuseppe Ottaviano, Matthew Muckley, Karen Ullrich, and Matthijs Douze. 
 
 The package is implemented in Python and partly in C++.
 The main package depends on the Elias-Fano implementation from the [Succint library](https://github.com/ot/succinct/blob/master/elias_fano.hpp) and the wavelet tree from [SDSL](https://github.com/simongog/sdsl-lite). 
@@ -206,7 +206,7 @@ If you use this package in a research work, please cite:
    title="Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search",
    author={Daniel Severo and Giuseppe Ottaviano and  Matthew Muckley and Karen Ullrich and Matthijs Douze},
    year={2025},
-   eprint={XXX},
+   eprint={2501.10479},
    archivePrefix={arXiv},
    primaryClass={cs.LG}
 }
