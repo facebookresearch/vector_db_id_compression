@@ -4,7 +4,6 @@ This is the implementation of the paper [Lossless Compression of Vector IDs for 
 
 The package is implemented in Python and partly in C++.
 The main package depends on the Elias-Fano implementation from the [Succint library](https://github.com/ot/succinct/blob/master/elias_fano.hpp) and the wavelet tree from [SDSL](https://github.com/simongog/sdsl-lite). 
-The code for these libraries is included as git submodules. 
 
 ## TABLE OF CONTENTS
 
