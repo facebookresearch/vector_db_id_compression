@@ -1,6 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 // All rights reserved.
-// 
+//
 // This source code is licensed under the license found in the
 // LICENSE file in the root directory of this source tree.
 
@@ -51,7 +51,7 @@ struct FenwickTree
         {
             this->size += 1;
             this->symbol = symbol;
-            return Range(this, 0, 1);
+            return Range<T>(this, 0, 1);
         }
 
         while (true)
@@ -66,7 +66,7 @@ struct FenwickTree
                 if (current->left == NULL)
                 {
                     current->left = new FenwickTree(symbol);
-                    return Range(current->left, start_offset, 1);
+                    return Range<T>(current->left, start_offset, 1);
                 }
                 else
                 {
@@ -79,7 +79,7 @@ struct FenwickTree
                 if (current->right == NULL)
                 {
                     current->right = new FenwickTree(symbol);
-                    return Range(current->right, start_offset, 1);
+                    return Range<T>(current->right, start_offset, 1);
                 }
                 else
                 {
@@ -88,7 +88,7 @@ struct FenwickTree
             }
             else
             {
-                return Range(current, start + start_offset, freq + 1);
+                return Range<T>(current, start + start_offset, freq + 1);
             }
         }
     }
@@ -134,7 +134,7 @@ struct FenwickTree
                 {
                     parent->right = NULL;
                 }
-                return Range(current, start + start_offset, freq);
+                return Range<T>(current, start + start_offset, freq);
             }
         }
     }
